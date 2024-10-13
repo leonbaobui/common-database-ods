@@ -1,6 +1,6 @@
 -- Add new auth_provider column
 ALTER TABLE users
-ADD COLUMN auth_provider VARCHAR(15);
+ADD COLUMN auth_provider VARCHAR(30);
 
 -- Update users signed up with LOCAL auth method
 UPDATE users
